@@ -7,21 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0F0B9722A75D5100DBCBCD /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F0B9622A75D5100DBCBCD /* Word.swift */; };
+		4C1A885422A9A91100218865 /* WordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A885322A9A91100218865 /* WordManager.swift */; };
+		4C1C6488229BB255005C1930 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C1C6487229BB255005C1930 /* GoogleService-Info.plist */; };
+		4C1C6489229BB255005C1930 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C1C6487229BB255005C1930 /* GoogleService-Info.plist */; };
+		4C3B20E922C3001000DFCF0F /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B20E822C3001000DFCF0F /* Segue.swift */; };
+		4C3CA20B22CE8E4300CF1A9E /* SavedWordDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA20A22CE8E4300CF1A9E /* SavedWordDetail.swift */; };
+		4C46C39A229C9D1F001AC23C /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46C399229C9D1F001AC23C /* CheckBox.swift */; };
+		4C4DE6A6229F849A0091B05C /* RootNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DE6A5229F849A0091B05C /* RootNavigation.swift */; };
+		4C4DE6A8229F87430091B05C /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DE6A7229F87430091B05C /* Signup.swift */; };
+		4C68738822D4F04C00ABFE84 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68738722D4F04C00ABFE84 /* PopUpViewController.swift */; };
+		4C6F6A9422A03FDB0093E047 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F6A9322A03FDB0093E047 /* User.swift */; };
+		4C6F6A9622A046CD0093E047 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F6A9522A046CD0093E047 /* AuthManager.swift */; };
+		4C6F6A9822A08EC60093E047 /* EngToViet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F6A9722A08EC60093E047 /* EngToViet.swift */; };
+		4C6F6A9A22A0C5030093E047 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F6A9922A0C5030093E047 /* TabbarController.swift */; };
+		4C79443822A473E800132306 /* VietToEng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79443722A473E800132306 /* VietToEng.swift */; };
+		4C79443A22A4AF1200132306 /* ReviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79443922A4AF1200132306 /* ReviewController.swift */; };
+		4C79443C22A4C41000132306 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79443B22A4C41000132306 /* UtilityFunctions.swift */; };
+		4CC7A18D22D684A100406073 /* DeleteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7A18C22D684A100406073 /* DeleteController.swift */; };
+		4CCFC10722939E8E00311BAD /* GetURL.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFC10622939E8E00311BAD /* GetURL.js */; };
 		4CE4CE1D2290B370006DA8D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4CE1C2290B370006DA8D5 /* AppDelegate.swift */; };
-		4CE4CE1F2290B370006DA8D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4CE1E2290B370006DA8D5 /* ViewController.swift */; };
+		4CE4CE1F2290B370006DA8D5 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4CE1E2290B370006DA8D5 /* SignIn.swift */; };
 		4CE4CE222290B370006DA8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE4CE202290B370006DA8D5 /* Main.storyboard */; };
 		4CE4CE242290B370006DA8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE4CE232290B370006DA8D5 /* Assets.xcassets */; };
 		4CE4CE272290B370006DA8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE4CE252290B370006DA8D5 /* LaunchScreen.storyboard */; };
+		4CE4CE362290B639006DA8D5 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4CE352290B639006DA8D5 /* ShareViewController.swift */; };
+		4CE4CE392290B639006DA8D5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE4CE372290B639006DA8D5 /* MainInterface.storyboard */; };
+		4CE4CE3D2290B639006DA8D5 /* DictionaryShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4CE4CE332290B639006DA8D5 /* DictionaryShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CE6487922AE9417009FDD4F /* WordDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6487822AE9416009FDD4F /* WordDetails.swift */; };
+		85F501D13445169EF179A598 /* Pods_DictionaryShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41FBB56ED275E3D016FFE18 /* Pods_DictionaryShare.framework */; };
+		E78412C41B6C6C836A6C17C3 /* Pods_Dictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23885D42144E6655ED46D5DD /* Pods_Dictionary.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4CE4CE3B2290B639006DA8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CE4CE112290B370006DA8D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE4CE322290B639006DA8D5;
+			remoteInfo = DictionaryShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CE4CE412290B639006DA8D5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4CE4CE3D2290B639006DA8D5 /* DictionaryShare.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0697DE38926EF0DE5FF238A5 /* Pods-Dictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictionary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dictionary/Pods-Dictionary.release.xcconfig"; sourceTree = "<group>"; };
+		23885D42144E6655ED46D5DD /* Pods_Dictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2954135DF89DA1A82D8FEC11 /* Pods-Dictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictionary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dictionary/Pods-Dictionary.debug.xcconfig"; sourceTree = "<group>"; };
+		4C0F0B9522A7028500DBCBCD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4C0F0B9622A75D5100DBCBCD /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		4C1A885322A9A91100218865 /* WordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordManager.swift; sourceTree = "<group>"; };
+		4C1C6487229BB255005C1930 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C3B20E822C3001000DFCF0F /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
+		4C3CA20A22CE8E4300CF1A9E /* SavedWordDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedWordDetail.swift; sourceTree = "<group>"; };
+		4C46C399229C9D1F001AC23C /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		4C4DE6A5229F849A0091B05C /* RootNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigation.swift; sourceTree = "<group>"; };
+		4C4DE6A7229F87430091B05C /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		4C68738722D4F04C00ABFE84 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		4C6F6A9322A03FDB0093E047 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4C6F6A9522A046CD0093E047 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		4C6F6A9722A08EC60093E047 /* EngToViet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngToViet.swift; sourceTree = "<group>"; };
+		4C6F6A9922A0C5030093E047 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		4C79443722A473E800132306 /* VietToEng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietToEng.swift; sourceTree = "<group>"; };
+		4C79443922A4AF1200132306 /* ReviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewController.swift; sourceTree = "<group>"; };
+		4C79443B22A4C41000132306 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		4CC7A18C22D684A100406073 /* DeleteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteController.swift; sourceTree = "<group>"; };
+		4CCFC10622939E8E00311BAD /* GetURL.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = GetURL.js; sourceTree = "<group>"; };
 		4CE4CE192290B370006DA8D5 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE4CE1C2290B370006DA8D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CE4CE1E2290B370006DA8D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CE4CE1E2290B370006DA8D5 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		4CE4CE212290B370006DA8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CE4CE232290B370006DA8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CE4CE262290B370006DA8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CE4CE282290B370006DA8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE4CE2E2290B592006DA8D5 /* Dictionary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dictionary.entitlements; sourceTree = "<group>"; };
+		4CE4CE332290B639006DA8D5 /* DictionaryShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DictionaryShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE4CE352290B639006DA8D5 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		4CE4CE382290B639006DA8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4CE4CE3A2290B639006DA8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE4CE422290B6CE006DA8D5 /* DictionaryShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DictionaryShare.entitlements; sourceTree = "<group>"; };
+		4CE6487822AE9416009FDD4F /* WordDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetails.swift; sourceTree = "<group>"; };
+		5526205DFBAF55D8DD73433F /* Pods-DictionaryShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictionaryShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DictionaryShare/Pods-DictionaryShare.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0C1A79FAA751E10BCDBD00 /* Pods-DictionaryShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictionaryShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-DictionaryShare/Pods-DictionaryShare.release.xcconfig"; sourceTree = "<group>"; };
+		D41FBB56ED275E3D016FFE18 /* Pods_DictionaryShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DictionaryShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78412C41B6C6C836A6C17C3 /* Pods_Dictionary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE4CE302290B639006DA8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F501D13445169EF179A598 /* Pods_DictionaryShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CAD41B422BC85BF0093F897 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		4CE4CE102290B370006DA8D5 = {
 			isa = PBXGroup;
 			children = (
 				4CE4CE1B2290B370006DA8D5 /* Dictionary */,
+				4CE4CE342290B639006DA8D5 /* DictionaryShare */,
 				4CE4CE1A2290B370006DA8D5 /* Products */,
+				6602C5D6461AD94B4D80F4BC /* Pods */,
+				D99CC71A6E70BB428B2C63CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				4CE4CE192290B370006DA8D5 /* Dictionary.app */,
+				4CE4CE332290B639006DA8D5 /* DictionaryShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +155,67 @@
 		4CE4CE1B2290B370006DA8D5 /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				4CAD41B422BC85BF0093F897 /* View Controllers */,
+				4C1C6487229BB255005C1930 /* GoogleService-Info.plist */,
+				4CE4CE2E2290B592006DA8D5 /* Dictionary.entitlements */,
 				4CE4CE1C2290B370006DA8D5 /* AppDelegate.swift */,
-				4CE4CE1E2290B370006DA8D5 /* ViewController.swift */,
+				4CE4CE1E2290B370006DA8D5 /* SignIn.swift */,
 				4CE4CE202290B370006DA8D5 /* Main.storyboard */,
 				4CE4CE232290B370006DA8D5 /* Assets.xcassets */,
+				4C46C399229C9D1F001AC23C /* CheckBox.swift */,
 				4CE4CE252290B370006DA8D5 /* LaunchScreen.storyboard */,
 				4CE4CE282290B370006DA8D5 /* Info.plist */,
+				4C4DE6A5229F849A0091B05C /* RootNavigation.swift */,
+				4C4DE6A7229F87430091B05C /* Signup.swift */,
+				4C6F6A9322A03FDB0093E047 /* User.swift */,
+				4C6F6A9522A046CD0093E047 /* AuthManager.swift */,
+				4C6F6A9722A08EC60093E047 /* EngToViet.swift */,
+				4C6F6A9922A0C5030093E047 /* TabbarController.swift */,
+				4C79443722A473E800132306 /* VietToEng.swift */,
+				4C79443922A4AF1200132306 /* ReviewController.swift */,
+				4C79443B22A4C41000132306 /* UtilityFunctions.swift */,
+				4C0F0B9522A7028500DBCBCD /* MyPlayground.playground */,
+				4C0F0B9622A75D5100DBCBCD /* Word.swift */,
+				4C1A885322A9A91100218865 /* WordManager.swift */,
+				4CE6487822AE9416009FDD4F /* WordDetails.swift */,
+				4C3B20E822C3001000DFCF0F /* Segue.swift */,
+				4C3CA20A22CE8E4300CF1A9E /* SavedWordDetail.swift */,
+				4C68738722D4F04C00ABFE84 /* PopUpViewController.swift */,
+				4CC7A18C22D684A100406073 /* DeleteController.swift */,
 			);
 			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		4CE4CE342290B639006DA8D5 /* DictionaryShare */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4CE422290B6CE006DA8D5 /* DictionaryShare.entitlements */,
+				4CE4CE352290B639006DA8D5 /* ShareViewController.swift */,
+				4CE4CE372290B639006DA8D5 /* MainInterface.storyboard */,
+				4CE4CE3A2290B639006DA8D5 /* Info.plist */,
+				4CCFC10622939E8E00311BAD /* GetURL.js */,
+			);
+			path = DictionaryShare;
+			sourceTree = "<group>";
+		};
+		6602C5D6461AD94B4D80F4BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2954135DF89DA1A82D8FEC11 /* Pods-Dictionary.debug.xcconfig */,
+				0697DE38926EF0DE5FF238A5 /* Pods-Dictionary.release.xcconfig */,
+				5526205DFBAF55D8DD73433F /* Pods-DictionaryShare.debug.xcconfig */,
+				5B0C1A79FAA751E10BCDBD00 /* Pods-DictionaryShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D99CC71A6E70BB428B2C63CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23885D42144E6655ED46D5DD /* Pods_Dictionary.framework */,
+				D41FBB56ED275E3D016FFE18 /* Pods_DictionaryShare.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,18 +225,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CE4CE2B2290B370006DA8D5 /* Build configuration list for PBXNativeTarget "Dictionary" */;
 			buildPhases = (
+				99BE9A43A6473893287F38E4 /* [CP] Check Pods Manifest.lock */,
 				4CE4CE152290B370006DA8D5 /* Sources */,
 				4CE4CE162290B370006DA8D5 /* Frameworks */,
 				4CE4CE172290B370006DA8D5 /* Resources */,
+				4CE4CE412290B639006DA8D5 /* Embed App Extensions */,
+				4F00CBEE08562A24CA23EFEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4CE4CE3C2290B639006DA8D5 /* PBXTargetDependency */,
 			);
 			name = Dictionary;
 			productName = Dictionary;
 			productReference = 4CE4CE192290B370006DA8D5 /* Dictionary.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4CE4CE322290B639006DA8D5 /* DictionaryShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE4CE3E2290B639006DA8D5 /* Build configuration list for PBXNativeTarget "DictionaryShare" */;
+			buildPhases = (
+				D39374B2265F99E6FAA942AF /* [CP] Check Pods Manifest.lock */,
+				4CE4CE2F2290B639006DA8D5 /* Sources */,
+				4CE4CE302290B639006DA8D5 /* Frameworks */,
+				4CE4CE312290B639006DA8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictionaryShare;
+			productName = DictionaryShare;
+			productReference = 4CE4CE332290B639006DA8D5 /* DictionaryShare.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +272,19 @@
 				TargetAttributes = {
 					4CE4CE182290B370006DA8D5 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4CE4CE322290B639006DA8D5 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -113,6 +302,7 @@
 			projectRoot = "";
 			targets = (
 				4CE4CE182290B370006DA8D5 /* Dictionary */,
+				4CE4CE322290B639006DA8D5 /* DictionaryShare */,
 			);
 		};
 /* End PBXProject section */
@@ -123,24 +313,132 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE4CE272290B370006DA8D5 /* LaunchScreen.storyboard in Resources */,
+				4C1C6488229BB255005C1930 /* GoogleService-Info.plist in Resources */,
 				4CE4CE242290B370006DA8D5 /* Assets.xcassets in Resources */,
 				4CE4CE222290B370006DA8D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CE4CE312290B639006DA8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE4CE392290B639006DA8D5 /* MainInterface.storyboard in Resources */,
+				4CCFC10722939E8E00311BAD /* GetURL.js in Resources */,
+				4C1C6489229BB255005C1930 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F00CBEE08562A24CA23EFEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dictionary/Pods-Dictionary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dictionary/Pods-Dictionary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dictionary/Pods-Dictionary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BE9A43A6473893287F38E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dictionary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D39374B2265F99E6FAA942AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DictionaryShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CE4CE152290B370006DA8D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CE4CE1F2290B370006DA8D5 /* ViewController.swift in Sources */,
+				4CE4CE1F2290B370006DA8D5 /* SignIn.swift in Sources */,
+				4C79443A22A4AF1200132306 /* ReviewController.swift in Sources */,
+				4C6F6A9622A046CD0093E047 /* AuthManager.swift in Sources */,
+				4C4DE6A8229F87430091B05C /* Signup.swift in Sources */,
+				4C6F6A9422A03FDB0093E047 /* User.swift in Sources */,
+				4C1A885422A9A91100218865 /* WordManager.swift in Sources */,
 				4CE4CE1D2290B370006DA8D5 /* AppDelegate.swift in Sources */,
+				4C68738822D4F04C00ABFE84 /* PopUpViewController.swift in Sources */,
+				4C79443C22A4C41000132306 /* UtilityFunctions.swift in Sources */,
+				4C0F0B9722A75D5100DBCBCD /* Word.swift in Sources */,
+				4C3CA20B22CE8E4300CF1A9E /* SavedWordDetail.swift in Sources */,
+				4C6F6A9822A08EC60093E047 /* EngToViet.swift in Sources */,
+				4C46C39A229C9D1F001AC23C /* CheckBox.swift in Sources */,
+				4CE6487922AE9417009FDD4F /* WordDetails.swift in Sources */,
+				4C6F6A9A22A0C5030093E047 /* TabbarController.swift in Sources */,
+				4C4DE6A6229F849A0091B05C /* RootNavigation.swift in Sources */,
+				4C79443822A473E800132306 /* VietToEng.swift in Sources */,
+				4C3B20E922C3001000DFCF0F /* Segue.swift in Sources */,
+				4CC7A18D22D684A100406073 /* DeleteController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE4CE2F2290B639006DA8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE4CE362290B639006DA8D5 /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CE4CE3C2290B639006DA8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE4CE322290B639006DA8D5 /* DictionaryShare */;
+			targetProxy = 4CE4CE3B2290B639006DA8D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4CE4CE202290B370006DA8D5 /* Main.storyboard */ = {
@@ -157,6 +455,14 @@
 				4CE4CE262290B370006DA8D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4CE4CE372290B639006DA8D5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE4CE382290B639006DA8D5 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,9 +586,12 @@
 		};
 		4CE4CE2C2290B370006DA8D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2954135DF89DA1A82D8FEC11 /* Pods-Dictionary.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = Dictionary/Dictionary.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3EZVYEJM8U;
 				INFOPLIST_FILE = Dictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -291,6 +600,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thaole.Dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Dictionary Development";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,9 +608,12 @@
 		};
 		4CE4CE2D2290B370006DA8D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0697DE38926EF0DE5FF238A5 /* Pods-Dictionary.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = Dictionary/Dictionary.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3EZVYEJM8U;
 				INFOPLIST_FILE = Dictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +622,49 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thaole.Dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Dictionary Development";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CE4CE3F2290B639006DA8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5526205DFBAF55D8DD73433F /* Pods-DictionaryShare.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DictionaryShare/DictionaryShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EZVYEJM8U;
+				INFOPLIST_FILE = DictionaryShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thaole.Dictionary.DictionaryShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CE4CE402290B639006DA8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0C1A79FAA751E10BCDBD00 /* Pods-DictionaryShare.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DictionaryShare/DictionaryShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EZVYEJM8U;
+				INFOPLIST_FILE = DictionaryShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thaole.Dictionary.DictionaryShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,6 +687,15 @@
 			buildConfigurations = (
 				4CE4CE2C2290B370006DA8D5 /* Debug */,
 				4CE4CE2D2290B370006DA8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE4CE3E2290B639006DA8D5 /* Build configuration list for PBXNativeTarget "DictionaryShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE4CE3F2290B639006DA8D5 /* Debug */,
+				4CE4CE402290B639006DA8D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
